@@ -1,0 +1,23 @@
+{
+  "name": "@ovia/contracts",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Ovia protocol smart contracts — escrow & auto-settlement",
+  "license": "MIT",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "deploy:testnet": "hardhat run scripts/deploy.ts --network baseSepolia",
+    "deploy:mainnet": "hardhat run scripts/deploy.ts --network base"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@types/chai": "^4.3.16",
+    "@types/mocha": "^10.0.7",
+    "@types/node": "^20.14.0",
+    "dotenv": "^16.4.5",
+    "hardhat": "^2.22.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.0"
+  }
+}
